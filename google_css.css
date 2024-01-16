@@ -1,0 +1,165 @@
+.nav {
+  display: flex;
+  /*자식요소 가로로 쭉 세우기!*/
+  justify-content: space-between;
+  /*양쪽정렬!!*/
+  width: 100%;
+}
+
+.nav-right {
+  margin: 15px;
+}
+
+.nav-left {
+  margin: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.85rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a,
+i {
+  margin-right: 15px;
+}
+
+.main {
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-area {
+  position: relative;
+  margin-top: 20px;
+  width: 40%;
+}
+
+input {
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 225px;
+  margin-top: 5px;
+}
+
+input:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+input:focus {
+  border: 1px solid #dadce0;
+  outline: none;
+}
+
+.left-icon {
+  position: relative;
+  left: 50px;
+  color: #9aa0a6;
+}
+
+.right-icon {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  color: #9aa0a6;
+}
+
+.button-area {
+  margin-top: 18px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+button:focus {
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+.footer div {
+  background: #f2f2f2;
+  display: block;
+}
+
+.footer-top {
+  padding: 15px 30px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 15px;
+  color: #1f1f1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-bottom {
+  padding: 15px 30px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 15px;
+  color: #1f1f1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-bottom-right {
+  float: right;
+}
+
+.footer-bottom a {
+  margin: 0px 20px 0px 5px;
+  text-decoration: none;
+  color: #1f1f1f;
+
+  font-size: 0.85rem;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.bua {
+  text-decoration: none;
+  color: #3c4043;
+}

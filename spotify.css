@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    background-color: black;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 28px 17px;
+}
+
+
+.foot li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #1ed760;
+}
+
+.foot a:hover{
+    color: #1ed760;
+}
+
+.main-pink{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.main-white{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    
+    margin: 18.667px 15px;
+}
+
+.pink-content{
+    width: 1169.99px;
+    height: 428.06px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    margin: 0px 45.741px 0px 45.752px;
+}
+
+.get{
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+    width: 148.39px;
+    height: 48px;
+    font-weight: 700px;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva;
+    font-size: inherit;
+}
+
+.oo{
+    background-color: pink;
+    color: black;
+    border-radius: 500px;
+    width: 148.39px;
+    height: 48px;
+    font-weight: 700px;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva;
+    font-size: inherit;
+}
+
+.white-content{
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 72px 0px;
+}
+
+.d11{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+}
+
+.d22{
+    text-align: end;
+    font-size: 12px;
+    color: #919496;
+}
+
+.d33{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #919496;
+    padding-top: 20px;
+}
+
+.d22>a:hover{
+    color: #1ed760;
+}
